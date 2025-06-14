@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+body{
+    font-family: 'Rajdhani';
+    background: url(img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pantalla-inicial{
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background:rgba(240, 7, 7, 0.7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px; 
+}
+h1{
+    font-family: 'Rockwell' Bold;
+    -webkit-text-stroke: 3px grey;
+    font-size: 50px;
+    color:#00c7c7;
+}
+
+video{
+    border-radius: 5cm;
+    width: 99vw;
+    position: fixed;
+    top: 2vh;
+
+}
+#pantalla-fight{
+    display: none;
+    position: fixed;
+}
+#pantalla-panel{
+  object-position: center;
+    display: none;
+    position:relative;
+}
+#pantalla-fine{
+    display: none;
+}
+#pantalla-fail{
+    display: none;
+}
+#pantalla-lose{
+  display: none;
+  position: fixed;
+}
+#pantalla-win{
+  display: none;
+  position: fixed;
+}
+
+#myBar1 {
+  position: absolute;
+  border-radius: 1cm;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#nombre1 {
+  text-align: center;
+  position: fixed;
+  font-family: Bold;
+  font-size: 5vh;
+  color:white;
+  width: 100%;
+}
+
+#myBar2 {
+  position: absolute;
+  border-radius: 1cm;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#nombre2 {
+  text-align: center;
+  position: fixed;
+  font-family: Bold;
+  font-size: 5vh;
+  color:white;
+  width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background:rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #c466fc;
+    border: none;
+    color:white;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid #4b0872 ;
+}
+button:hover{
+    border-bottom: 4px solid transparent;
+    background-color: #7705b9;
+}
+
+.contenedor {
+    width: 98vw;
+    height: 60vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .encabezado {
+    border: 3px solid #000;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    background: rgb(255, 0, 0);
+    min-width: 300px;
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+  }
+  
+  .categoria {
+    opacity: 0.3;
+    text-align: left;
+  }
+  
+  .pregunta {
+    padding: 10px;
+  }
+  
+  .imagen {
+    object-fit: cover;
+    height: 0px;
+    width: 0px;
+  }
+  
+  .btn {
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    width: 60%;
+    max-width: 550px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .numero{
+    position: absolute;
+    opacity:0.3;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .puntaje{
+    padding:10px;
+    color:rgb(0, 0, 0);
+  }
+
+ #pantalla-victoria{
+  object-position: center;
+  display: none;
+  position:relative;
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  background:rgba(240, 7, 7, 0.7);
+  padding: 30px;
+  border: 2px solid #000;
+  border-radius: 20px; 
+}
+
+#pantalla-derrota{
+  object-position: center;
+  display: none;
+  position:relative;
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  background:rgba(240, 7, 7, 0.7);
+  padding: 30px;
+  border: 2px solid #000;
+  border-radius: 20px; 
+}
+
+#myProgress1 {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 1cm;
+  position: fixed;
+  bottom: 50px;
+  left: 1.5vw;
+  background: white;
+  width: 98vw;
+  height: 8vh;
+  background-color: grey;
+}
+
+#myProgress2 {
+  border: 3px solid black;
+  border-radius: 1cm;
+  position: fixed;
+  bottom: 120px;
+  left: 1.5vw;
+  background: white;
+  width: 98vw;
+  height: 8vh;
+  background-color: grey;
+}
+
+/* Consulta de medios para smartphones */
+@media (max-width: 768px) {
+  #myProgress1 {
+    transform: rotate(270deg);
+    border: 3px solid black;
+    border-radius: 1cm;
+    position: fixed;
+    bottom: 150px;
+    left: 70vw;
+    background: white;
+    width: 40vw;
+    height: 8vh;
+    background-color: grey;
+  }
+
+  #myBar1 {
+    position: absolute;
+    border-radius: 1cm;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+  }
+  
+  #nombre1 {
+    transform: rotate(90deg);
+    text-align: center;
+    position: fixed;
+    font-family: Bold;
+    font-size: 8vh;
+    color:white;
+    -webkit-text-stroke: 2px black;
+    width: 100%;
+  }
+  
+  #myProgress2 {
+    transform: rotate(270deg);
+    border: 3px solid black;
+    border-radius: 1cm;
+    position: fixed;
+    bottom: 150px;
+    left: -10vw;
+    background: white;
+    width: 40vw;
+    height: 8vh;
+    background-color: grey;
+  }
+
+  #myBar2 {
+    position: absolute;
+    border-radius: 1cm;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+  }
+  
+  #nombre2 {
+    transform: rotate(90deg);
+    text-align: center;
+    position: fixed;
+    font-family: Bold;
+    font-size: 8vh;
+    -webkit-text-stroke: 2px black;
+    color:white;
+    width: 100%;
+  }
+}

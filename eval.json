@@ -1,0 +1,92 @@
+[
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Qué sucedió el 25 de Mayo de 1810?",
+        "respuesta": "Revolución de Mayo",
+        "incorrecta1": "La Independencia",
+        "incorrecta2": "La Soberanía",
+        "incorrecta3": "La Constitución",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿A qué país pertenecíamos originalmente?",
+        "respuesta": "España",
+        "incorrecta1": "Inglaterra",
+        "incorrecta2": "Portugal",
+        "incorrecta3": "Francia",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Quién fue el presidente de la primera junta?",
+        "respuesta": "Cornelio Saavedra",
+        "incorrecta1": "Manuel Belgrano",
+        "incorrecta2": "Mariano Moreno",
+        "incorrecta3": "J. J. Paso",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Cuántos vocales tuvo la Primera Junta?",
+        "respuesta": "6",
+        "incorrecta1": "3",
+        "incorrecta2": "8",
+        "incorrecta3": "5",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Por qué finalizó la Junta Grande?",
+        "respuesta": "Desacuerdo entre los integrantes",
+        "incorrecta1": "Falta de presupuesto",
+        "incorrecta2": "Muerte del presidente",
+        "incorrecta3": "Invasión Española",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Qué gobierno le siguió luego de la Junta Grande?",
+        "respuesta": "Triunvirato",
+        "incorrecta1": "Presidencia",
+        "incorrecta2": "Directorio",
+        "incorrecta3": "Dictadura",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Cuántos Triunviratos hubo?",
+        "respuesta": "2",
+        "incorrecta1": "3",
+        "incorrecta2": "1",
+        "incorrecta3": "6",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Quién fue el primer Director Supremo?",
+        "respuesta": "Gervasio Antonio de Posadas",
+        "incorrecta1": "José Gervasio Artigas",
+        "incorrecta2": "Ignacio Álvarez Thomas",
+        "incorrecta3": "J. J. Paso",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Hasta qué año estuvo vigente El Directorio?",
+        "respuesta": "1820",
+        "incorrecta1": "1818",
+        "incorrecta2": "1822",
+        "incorrecta3": "1819",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "Con la caída del Directorio, ¿Qué periodo comienza en la Argentina?",
+        "respuesta": "Anarquía del Año XX",
+        "incorrecta1": "Periodo de Paz",
+        "incorrecta2": "Periodo de Guerra",
+        "incorrecta3": "Presidencialismo",
+        "objectFit": "cover"
+    }
+]

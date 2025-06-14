@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxeo de Preguntas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="pantalla-inicial">
+        <h1>Boxeo de Preguntas</h1>
+        <button id="comenzar">1° ROUND</button>
+    </section>
+
+    <section id="pantalla-fight">
+        <video id="videofight">
+            <source src="video\fight.mp4">
+        </video>
+    </section>
+
+    <section id="pantalla-panel">
+         <div class="contenedor">
+            <div class="puntaje" id="puntaje"></div>
+            <div class="encabezado">
+              <div class="categoria" id="categoria">
+              </div>
+              <div class="numero" id="numero"></div>
+              <div class="pregunta" id="pregunta">
+              </div>
+              <img src="#" class="imagen" id="imagen">
+            </div>
+            <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+            <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+            <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+            <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+            
+            <div id="myProgress1">
+            <div id="myBar1"></div>
+            <div id="nombre1">Eiji Date</div>
+             </div>
+    
+             <div id="myProgress2">
+            <div id="myBar2"></div>
+            <div id="nombre2">Vos</div>
+            </div>
+            </div>
+       
+    </section>
+
+    <section id="pantalla-fine">
+        <video id="videofine">
+            <source src="video\fine.mp4">
+        </video>
+        
+    </section>
+
+    <section id="pantalla-fail">
+        <video id="videofail">
+            <source src="video\fail.mp4">
+        </video>
+        <audio src=""></audio>
+        
+    </section>
+
+    <section id="pantalla-lose">
+        <video id="videolose">
+            <source src="video\lose.mp4">
+        </video>
+        
+    </section>
+
+    <section id="pantalla-win">
+        <video id="videowin">
+            <source src="video\win.mp4">
+        </video>
+        
+    </section>
+
+    <section id="pantalla-victoria">
+        <h1>K.O.</h1>
+        <h2>¡GANASTE!</h2>
+        <button id="reload1">VOLVER AL RING</button>
+    </section>
+
+    <section id="pantalla-derrota">
+        <h1>PERDISTE</h1>
+        <button id="reload2">REVANCHA</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
